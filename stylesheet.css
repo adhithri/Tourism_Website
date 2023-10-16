@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 1170px;
+	margin: auto;
+}
+.section{
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/photo-1618083707368-b3823daa2726.jfif');
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../images/photo-1618083707368-b3823daa2726.jfif');
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position:center center ;
+	position: relative ;
+}
+.nav-area{
+	float: right;
+	list-style: none;
+	margin-top: 5%;
+}
+.nav-area li{
+	display: inline-block;
+}
+.nav-area li a{
+	color: whitesmoke;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: ;
+	font-size: 18px;
+	font-weight: bolder;
+}
+.nav-area li a:hover{
+	background: darkgoldenrod;
+	color: #333;
+}
+.logo-img{
+	
+	float: left;
+	height: auto;
+}
+.index{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/photo-1618083707368-b3823daa2726.jfif');
+}
+.intro-text{
+
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 13% 30%;
+	text-align: center;
+}
+.intro-text h1{
+	text-align: center;
+	color: black;
+	font-size: 60px;
+	margin-bottom: 6px;
+}
+.intro-text h4{
+	text-align: center;
+	font-size: 30px;
+	margin: auto;
+} 
+.search-box{
+	padding: 10px;
+	width: 80%;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	
+}
+.search-button{
+	box-shadow: gray;
+	padding: 0.6em;
+	margin: 6px 0 0 4px;
+}
+.intro-text a{
+	text-decoration: none;
+	color: #fff;
+
+}
+.intro-text a:hover{
+	background: #fff;
+	color: #333;
+}
+.get-in-touch{
+	margin-top: 6px;
+}
+		/* Footer CSS */
+.footer{
+	background-color: slategray;
+	color:black;
+	line-height: 500%;
+	 align: center;
+	 font-size: 20px;
+	 text-align: center;
+	 font-weight: bold;
+}
+.wrapper p a{
+	text-decoration: none;
+	color: blanchedalmond;
+	font-weight: bolder;
+}
+
+	
+
+		/*Main Content CSS */
+.main-content{
+	padding:3% 0;
+}
+
+.clearfix{
+	float:none;
+	clear:both;
+}
+.blog-table{
+	margin-left: -40px;
+	padding: 5%;
+	margin-top: 20px;
+}
+.blog-table p{
+	color: whitesmoke;
+	text-align: left; 
+}
+.blog-img{
+	width: 450px;
+	height: 300px;
+
+}
+.blog-container{
+	width: 1170px;
+	margin: auto;
+}
+th{
+	padding: 20px;
+}
+.booking-form{
+	align: center;
+	margin: 1% 12%;
+	padding: 5%;
+	font-size: 24px;
+}
+.order-label,input,textarea {
+	margin-left: 30px;
+	font-size: 18px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+legend{
+	font-size: 36px;
+	margin-bottom: 10px;
+	color: black;
+}
+.submit{
+	padding: 3px;
+	box-shadow: darkblue;
+}
+fieldset{
+	border-width: 10px;
+	box-shadow: gray;
+	border-radius: 4px;
+
+}
